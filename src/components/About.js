@@ -2,16 +2,17 @@
 
 import React from 'react';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+// 2. Import the specific icon you want to use
+import { faCoffee, faCheckCircle } from '@fortawesome/free-solid-svg-icons';
+
 const About = () => {
   return (
     <div className='container my-5'>
-      <h2>About Me</h2>
-      <p>
-        I am a passionate Frontend Developer with 5.8+ years of experience in
-        creating seamless user experiences using React, Redux, TypeScript, and
-        Bootstrap. I specialize in building responsive UIs and delivering
-        high-quality code.
-      </p>
+      <header>
+        <p>About Me</p>
+      </header>
     </div>
   );
 };
