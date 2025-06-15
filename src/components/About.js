@@ -12,6 +12,7 @@ const About = () => {
     <div className='container my-5'>
       <header>
         <p>About Me</p>
+        <p>contact us</p>
       </header>
     </div>
   );
