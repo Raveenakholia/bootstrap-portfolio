@@ -5,13 +5,18 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 // 2. Import the specific icon you want to use
-import { faCoffee, faCheckCircle } from '@fortawesome/free-solid-svg-icons';
+import {
+  faCoffee,
+  faCheckCircle,
+  faAlignRight,
+} from '@fortawesome/free-solid-svg-icons';
 
 const About = () => {
   return (
     <div className='container my-5'>
       <header>
-        <p>About Me</p>
+        <p>Circle</p>
+        <FontAwesomeIcon icon={faCheckCircle}></FontAwesomeIcon>
         <p>contact us</p>
       </header>
     </div>
