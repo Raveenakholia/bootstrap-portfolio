@@ -1,9 +1,13 @@
-import React from 'react'
+/** @format */
+
+import React from 'react';
 
 const SampleTesting = () => {
   return (
-    <div></div>
-  )
-}
+    <div>
+      <h1>Hello test app</h1>
+    </div>
+  );
+};
 
-export default SampleTesting
+export default SampleTesting;
