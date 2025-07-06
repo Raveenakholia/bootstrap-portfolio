@@ -3,6 +3,7 @@
 import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import ME from '../assets/ME.jpeg';
 
 // 2. Import the specific icon you want to use
 import {
@@ -21,7 +22,7 @@ const About = () => {
         <div class='row align-items-center'>
           <div class='col-lg-6 mb-4 mb-lg-0'>
             <img
-              src='your-photo.jpg'
+              src={ME}
               alt='Raveena Kholia'
               class='img-fluid rounded shadow'
             />

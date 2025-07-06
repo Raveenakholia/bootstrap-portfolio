@@ -1,7 +1,7 @@
 /** @format */
 
 import React from 'react';
-import RaveenaKholia from '../assets/RaveenaKholia.jpg';
+import RaveenaKholia from '../assets/RV.jpeg';
 
 const Body = () => {
   return (
@@ -18,14 +18,18 @@ const Body = () => {
         If you're looking for someone who blends logic with soul — let's
         connect.
       </p>
-      <div className='profile-pic'>
+      <div
+        style={{
+          textAlign: 'center',
+          marginBottom: '50px',
+          boxShadow: 'none',
+        }}>
         <img
           src={RaveenaKholia}
           alt='Raveena Kholia'
-          style={{ maxWidth: '240px' }}
+          style={{ maxWidth: '500px' }}
         />
       </div>
-
       <div className='profile-section '>
         <section
           id='projects'
