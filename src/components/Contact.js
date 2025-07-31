@@ -83,7 +83,7 @@ function Contact() {
                 <p>
                   <strong>WhatsApp:</strong>{' '}
                   <a
-                    href='https://wa.me/91XXXXXXXXXX'
+                    href='https://wa.me/+918284906157'
                     target='_blank'>
                     Message me directly
                   </a>

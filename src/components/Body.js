@@ -27,7 +27,7 @@ const Body = () => {
         <img
           src={RaveenaKholia}
           alt='Raveena Kholia'
-          style={{ maxWidth: '500px' }}
+          style={{ maxWidth: '800px' }}
         />
       </div>
       <div className='profile-section '>
