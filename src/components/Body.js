@@ -2,6 +2,7 @@
 
 import React from 'react';
 import RaveenaKholia from '../assets/RV.jpeg';
+import SmartIndiaHackathon from './SmartIndiaHackathon';
 
 const Body = () => {
   return (
@@ -49,7 +50,7 @@ const Body = () => {
               <div class='col-md-6 col-lg-4'>
                 <div class='card h-100 shadow-sm border-0'>
                   <div class='card-body d-flex flex-column'>
-                    <h5 class='card-title'>Smart Banking Chatbot</h5>
+                    <h5 class='card-title'>Au Small Finance Bank</h5>
                     <p class='card-text'>
                       An interactive chatbot UI built using{' '}
                       <strong>Chat.js</strong>, designed for retail banking
@@ -84,7 +85,25 @@ const Body = () => {
                   </div>
                 </div>
               </div>
-
+              <div class='col-md-6 col-lg-4'>
+                <div class='card h-100 shadow-sm border-0'>
+                  <div class='card-body d-flex flex-column'>
+                    <h5 class='card-title'>Finance Advisor Chat Assistant</h5>
+                    <p class='card-text'>
+                      Built with <strong>Chat.js</strong>, this app provides
+                      smart financial suggestions based on user inputs.
+                      Integrated with market APIs, and uses Redux for managing
+                      financial Q&A flows.
+                    </p>
+                    <div class='mt-auto'>
+                      <span class='badge bg-info me-1'>Chat.js</span>
+                      <span class='badge bg-primary me-1'>React</span>
+                      <span class='badge bg-dark'>APIs</span>
+                      <span class='badge bg-success'>Redux</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div class='col-md-6 col-lg-4'>
                 <div class='card h-100 shadow-sm border-0'>
                   <div class='card-body d-flex flex-column'>

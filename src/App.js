@@ -9,6 +9,7 @@ import Projects from './components/Projets';
 import Contact from './components/Contact';
 import Header from './components/Header';
 import Home from './components/Home';
+import Achievements from './components/Achievements';
 
 function App() {
   return (
@@ -21,6 +22,10 @@ function App() {
         <Route
           path='/about'
           element={<About />}
+        />
+        <Route
+          path='/achievements'
+          element={<Achievements />}
         />
         <Route
           path='/header'

@@ -36,6 +36,13 @@ const Header = () => {
         <ul className='navbar-nav'>
           <li className='nav-item'>
             <Link
+              to='/achievements'
+              className='nav-link'>
+              Achievements
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link
               to='/projects'
               className='nav-link'>
               Projects

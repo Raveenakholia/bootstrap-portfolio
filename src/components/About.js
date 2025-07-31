@@ -13,6 +13,7 @@ import {
   faLinkedinSquare,
 } from '@fortawesome/free-solid-svg-icons';
 
+const handleOnClickFunctionlity = () => {};
 const About = () => {
   return (
     <div className='container my-5'>
@@ -48,8 +49,9 @@ const About = () => {
               alive.
             </p>
             <a
-              href='#contact'
-              class='btn btn-dark mt-3'>
+              href='/src/components/Achievements.js'
+              class='btn btn-dark mt-3'
+              onClick={handleOnClickFunctionlity}>
               Let’s Build Something Meaningful
             </a>
           </div>
