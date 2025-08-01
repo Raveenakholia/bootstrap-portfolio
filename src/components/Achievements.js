@@ -4,6 +4,7 @@ import React from 'react';
 import PinnacleAward from '../assets/PinnacleAward.jpg';
 import GENAI from '../assets/GENAI.jpg';
 import Kudos from '../assets/Kudos.jpg';
+import Canva from '../assets/Canva.jpg';
 
 const Achievements = () => {
   return (
@@ -76,6 +77,23 @@ const Achievements = () => {
                 </div>
                 <div class='card-footer bg-transparent border-0 text-center'>
                   <small class='text-muted'>September 2020</small>
+                </div>
+              </div>
+            </div>
+            <div class='col-md-4'>
+              <div class='card h-100 shadow-sm border-0'>
+                <div class='card-body text-center'>
+                  <i class='bi bi-trophy fs-1 text-warning mb-3'></i>
+                  <h5 class='card-title'>Canva Designs</h5>
+                  <p class='card-text'></p>
+                  <img
+                    src={Canva}
+                    alt='Pinnacle award'
+                    style={{ width: '314px', alignItems: 'center' }}
+                  />
+                </div>
+                <div class='card-footer bg-transparent border-0 text-center'>
+                  <small class='text-muted'>April 2025</small>
                 </div>
               </div>
             </div>

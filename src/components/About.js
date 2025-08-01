@@ -4,6 +4,7 @@ import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import ME from '../assets/ME.jpeg';
+import Achievements from './Achievements';
 
 // 2. Import the specific icon you want to use
 import {
@@ -49,7 +50,7 @@ const About = () => {
               alive.
             </p>
             <a
-              href='/src/components/Achievements.js'
+              href="/src/components/Achievements"
               class='btn btn-dark mt-3'
               onClick={handleOnClickFunctionlity}>
               Let’s Build Something Meaningful
