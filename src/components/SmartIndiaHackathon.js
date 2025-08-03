@@ -1,7 +1,5 @@
 /** @format */
 
-import React from 'react';
-
 const SmartIndiaHackathon = () => {
   return (
     <div>

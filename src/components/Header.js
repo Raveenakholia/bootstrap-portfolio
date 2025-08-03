@@ -1,6 +1,5 @@
 /** @format */
 
-import React from 'react';
 import { Link } from 'react-router-dom';
 import RK_Logo from '../assets/RK_Logo.jpg';
 

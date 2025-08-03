@@ -1,6 +1,5 @@
 /** @format */
 
-import React from 'react';
 import PinnacleAward from '../assets/PinnacleAward.jpg';
 import GENAI from '../assets/GENAI.jpg';
 import Kudos from '../assets/Kudos.jpg';

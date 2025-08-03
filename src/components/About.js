@@ -1,7 +1,5 @@
 /** @format */
 
-import React from 'react';
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import ME from '../assets/ME.jpeg';
 import Achievements from './Achievements';
@@ -50,7 +48,7 @@ const About = () => {
               alive.
             </p>
             <a
-              href="/src/components/Achievements"
+              href='/src/components/Achievements'
               class='btn btn-dark mt-3'
               onClick={handleOnClickFunctionlity}>
               Let’s Build Something Meaningful

@@ -1,6 +1,5 @@
 /** @format */
 
-import React from 'react';
 import RaveenaKholia from '../assets/RV.jpeg';
 import SmartIndiaHackathon from './SmartIndiaHackathon';
 
