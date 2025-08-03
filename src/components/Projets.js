@@ -31,16 +31,22 @@ function Projects() {
                     alt='Project 1'
                   />
                   <div class='card-body d-flex flex-column'>
-                    <h5 class='card-title'>Inventory Dashboard</h5>
+                    <h5 class='card-title'>
+                      DFCU Bank – Commercial Loan Origination System (CLOS)
+                    </h5>
                     <p class='card-text'>
-                      A scalable inventory management dashboard built with
-                      React, Redux Toolkit, and Bootstrap. Features dynamic
-                      charts, real-time updates, and role-based login.
+                      Delivered a tailored Commercial Loan Origination System
+                      (CLOS) for DFCU Bank, designed to digitize and optimize
+                      the complex workflows involved in commercial lending. The
+                      system helps manage loan applications, approvals, and
+                      documentation with increased speed and transparency.
                     </p>
                     <div class='mt-auto'>
-                      <span class='badge bg-primary me-1'>React</span>
-                      <span class='badge bg-success me-1'>Redux</span>
-                      <span class='badge bg-warning text-dark'>Bootstrap</span>
+                      <span class='badge bg-primary me-1'>NEMF</span>
+                      <span class='badge bg-primary me-1'>Cordova</span>
+                      <span class='badge bg-success me-1'>Jquery</span>
+                      <span class='badge bg-info text-dark'>HTML</span>
+                      <span class='badge bg-info text-dark'>CSS</span>
                     </div>
                   </div>
                   <div class='card-footer bg-transparent border-0 d-flex justify-content-between'>
@@ -68,16 +74,22 @@ function Projects() {
                     alt='Project 2'
                   />
                   <div class='card-body d-flex flex-column'>
-                    <h5 class='card-title'>E-commerce Storefront</h5>
+                    <h5 class='card-title'>
+                      Bank Muscat – Retail Loan Origination System (RLOS)
+                    </h5>
                     <p class='card-text'>
-                      A full-featured e-commerce UI with product listing,
-                      Redux-based cart system, and dynamic filtering. Built with
-                      reusable components.
+                      Developed and delivered a robust Retail Loan Origination
+                      System (RLOS) for Bank Muscat to streamline and automate
+                      the end-to-end loan processing workflow. The project
+                      focused on enhancing user experience, reducing processing
+                      time, and ensuring compliance with banking standards.
                     </p>
                     <div class='mt-auto'>
-                      <span class='badge bg-primary me-1'>React</span>
-                      <span class='badge bg-success me-1'>Redux</span>
-                      <span class='badge bg-info text-dark'>TypeScript</span>
+                      <span class='badge bg-primary me-1'>NEMF</span>
+                      <span class='badge bg-primary me-1'>Cordova</span>
+                      <span class='badge bg-success me-1'>Jquery</span>
+                      <span class='badge bg-info text-dark'>HTML</span>
+                      <span class='badge bg-info text-dark'>CSS</span>
                     </div>
                   </div>
                   <div class='card-footer bg-transparent border-0 d-flex justify-content-between'>

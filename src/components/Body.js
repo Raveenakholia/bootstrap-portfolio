@@ -69,12 +69,13 @@ const Body = () => {
               <div class='col-md-6 col-lg-4'>
                 <div class='card h-100 shadow-sm border-0'>
                   <div class='card-body d-flex flex-column'>
-                    <h5 class='card-title'>Finance Advisor Chat Assistant</h5>
+                    <h5 class='card-title'>Dashboard PoC – NEMF Product</h5>
                     <p class='card-text'>
-                      Built with <strong>Chat.js</strong>, this app provides
-                      smart financial suggestions based on user inputs.
-                      Integrated with market APIs, and uses Redux for managing
-                      financial Q&A flows.
+                      Developed a modern and interactive dashboard proof of
+                      concept for the NEMF product to visualize key business
+                      metrics and operational data. The goal was to demonstrate
+                      how a user-centric, real-time dashboard could enhance
+                      decision-making for stakeholders.
                     </p>
                     <div class='mt-auto'>
                       <span class='badge bg-info me-1'>Chat.js</span>
@@ -88,16 +89,23 @@ const Body = () => {
               <div class='col-md-6 col-lg-4'>
                 <div class='card h-100 shadow-sm border-0'>
                   <div class='card-body d-flex flex-column'>
-                    <h5 class='card-title'>Finance Advisor Chat Assistant</h5>
+                    <h5 class='card-title'>
+                      {' '}
+                      IBPS – Laptop Version of Dashboard PoC for NEMF Product
+                    </h5>
                     <p class='card-text'>
-                      Built with <strong>Chat.js</strong>, this app provides
-                      smart financial suggestions based on user inputs.
-                      Integrated with market APIs, and uses Redux for managing
-                      financial Q&A flows.
+                      Extended the NEMF product’s dashboard proof of concept
+                      into a dedicated laptop/desktop version, tailored for IBPS
+                      users who require a broader data view and advanced
+                      analytics on larger screens. This version aimed to enhance
+                      operational oversight and data-driven decision-making.
                     </p>
                     <div class='mt-auto'>
                       <span class='badge bg-info me-1'>Chat.js</span>
                       <span class='badge bg-primary me-1'>React</span>
+                      <span class='badge bg-primary me-1'>
+                        JBOSS Eap Server
+                      </span>
                       <span class='badge bg-dark'>APIs</span>
                       <span class='badge bg-success'>Redux</span>
                     </div>

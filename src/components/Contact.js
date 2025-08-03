@@ -70,7 +70,7 @@ function Contact() {
 
               <div class='text-center'>
                 <p class='mb-1'>
-                  <strong>Email:</strong> raveenakholia@example.com
+                  <strong>Email:</strong> raveenakholia786@gmail.com
                 </p>
                 <p class='mb-1'>
                   <strong>Instagram:</strong>{' '}
