@@ -1,6 +1,7 @@
 /** @format */
 
 // src/components/Projects.js
+import * as React5 from 'react';
 import { useSelector } from 'react-redux';
 
 function Projects() {
