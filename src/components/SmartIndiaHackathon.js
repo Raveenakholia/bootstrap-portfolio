@@ -2,107 +2,86 @@
 
 const SmartIndiaHackathon = () => {
   return (
-    <div>
-      <section class='py-5 bg-light'>
-        <div class='container'>
-          <h2 class='text-center mb-4'>Government Projects</h2>
-          <p class='text-center text-muted mb-5'>
-            A showcase of projects proudly delivered in collaboration with
-            government bodies and public sector initiatives.
-          </p>
+    <div
+      id='projectCarousel'
+      className='carousel slide carousel-fade'
+      data-bs-ride='carousel'>
+      <div className='carousel-indicators'>
+        <button
+          type='button'
+          data-bs-target='#projectCarousel'
+          data-bs-slide-to='0'
+          className='active'
+          aria-current='true'
+          aria-label='Slide 1'></button>
+        <button
+          type='button'
+          data-bs-target='#projectCarousel'
+          data-bs-slide-to='1'
+          aria-label='Slide 2'></button>
+        <button
+          type='button'
+          data-bs-target='#projectCarousel'
+          data-bs-slide-to='2'
+          aria-label='Slide 3'></button>
+      </div>
 
-          <div class='row g-4'>
-            <div class='col-md-6 col-lg-4'>
-              <div class='card h-100 border-0 shadow-sm'>
-                <div class='card-body'>
-                  <h5 class='card-title text-primary'>E-Governance Portal</h5>
-                  <p class='card-text'>
-                    Designed and developed an intuitive portal to streamline
-                    citizen services, improving accessibility and efficiency.
-                  </p>
-                  <ul class='list-unstyled small mb-0'>
-                    <li>
-                      <i class='bi bi-calendar-event me-2 text-secondary'></i>{' '}
-                      Completed: March 2025
-                    </li>
-                    <li>
-                      <i class='bi bi-geo-alt me-2 text-secondary'></i> State
-                      Government of XYZ
-                    </li>
-                  </ul>
-                </div>
-                <div class='card-footer bg-transparent border-0'>
-                  <a
-                    href='#'
-                    class='btn btn-outline-primary btn-sm'>
-                    View Details
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class='col-md-6 col-lg-4'>
-              <div class='card h-100 border-0 shadow-sm'>
-                <div class='card-body'>
-                  <h5 class='card-title text-primary'>Smart City Dashboard</h5>
-                  <p class='card-text'>
-                    Built a real-time analytics dashboard for urban management,
-                    supporting data-driven decisions for smart cities.
-                  </p>
-                  <ul class='list-unstyled small mb-0'>
-                    <li>
-                      <i class='bi bi-calendar-event me-2 text-secondary'></i>{' '}
-                      Completed: December 2024
-                    </li>
-                    <li>
-                      <i class='bi bi-geo-alt me-2 text-secondary'></i> National
-                      Urban Development
-                    </li>
-                  </ul>
-                </div>
-                <div class='card-footer bg-transparent border-0'>
-                  <a
-                    href='#'
-                    class='btn btn-outline-primary btn-sm'>
-                    View Details
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class='col-md-6 col-lg-4'>
-              <div class='card h-100 border-0 shadow-sm'>
-                <div class='card-body'>
-                  <h5 class='card-title text-primary'>
-                    Public Health Mobile App
-                  </h5>
-                  <p class='card-text'>
-                    Developed a mobile app to help citizens access public health
-                    resources and vaccination centers easily.
-                  </p>
-                  <ul class='list-unstyled small mb-0'>
-                    <li>
-                      <i class='bi bi-calendar-event me-2 text-secondary'></i>{' '}
-                      Completed: August 2024
-                    </li>
-                    <li>
-                      <i class='bi bi-geo-alt me-2 text-secondary'></i> Ministry
-                      of Health
-                    </li>
-                  </ul>
-                </div>
-                <div class='card-footer bg-transparent border-0'>
-                  <a
-                    href='#'
-                    class='btn btn-outline-primary btn-sm'>
-                    View Details
-                  </a>
-                </div>
-              </div>
-            </div>
+      <div className='carousel-inner rounded-4 shadow-lg'>
+        <div className='carousel-item active'>
+          <img
+            src='/images/hackathon1.jpg'
+            className='d-block w-100'
+            alt='Smart India Hackathon Project 1'
+          />
+          <div className='carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded-3 p-2'>
+            <h5>Smart India Hackathon 2023</h5>
+            <p>Our AI-based traffic management solution.</p>
           </div>
         </div>
-      </section>
+        <div className='carousel-item'>
+          <img
+            src='/images/hackathon2.jpg'
+            className='d-block w-100'
+            alt='Smart India Hackathon Project 2'
+          />
+          <div className='carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded-3 p-2'>
+            <h5>Problem Solving at Scale</h5>
+            <p>Addressing real-world public service challenges.</p>
+          </div>
+        </div>
+        <div className='carousel-item'>
+          <img
+            src='/images/hackathon3.jpg'
+            className='d-block w-100'
+            alt='Smart India Hackathon Project 3'
+          />
+          <div className='carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded-3 p-2'>
+            <h5>Innovative UI/UX</h5>
+            <p>Built using React, Node.js and cloud services.</p>
+          </div>
+        </div>
+      </div>
+
+      <button
+        className='carousel-control-prev'
+        type='button'
+        data-bs-target='#projectCarousel'
+        data-bs-slide='prev'>
+        <span
+          className='carousel-control-prev-icon'
+          aria-hidden='true'></span>
+        <span className='visually-hidden'>Previous</span>
+      </button>
+      <button
+        className='carousel-control-next'
+        type='button'
+        data-bs-target='#projectCarousel'
+        data-bs-slide='next'>
+        <span
+          className='carousel-control-next-icon'
+          aria-hidden='true'></span>
+        <span className='visually-hidden'>Next</span>
+      </button>
     </div>
   );
 };

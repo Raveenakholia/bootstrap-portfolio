@@ -1,7 +1,6 @@
 /** @format */
 
 import RaveenaKholia from '../assets/RV.jpeg';
-import SmartIndiaHackathon from './SmartIndiaHackathon';
 
 const Body = () => {
   return (

@@ -1,28 +1,22 @@
 /** @format */
 
-// /** @format */
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-// // src/components/ErrorPage.jsx
+const ErrorPage = () => {
+  return (
+    <div className='d-flex flex-column justify-content-center align-items-center vh-100 bg-light'>
+      <h1 className='display-1 text-danger'>404</h1>
+      <h2 className='text-dark mb-3'>Page Not Found</h2>
+      <p className='text-muted mb-4 text-center px-3'>
+        Oops! The page you're looking for doesn't exist or has been moved.
+      </p>
+      <a
+        href='/'
+        className='btn btn-primary'>
+        Go Home
+      </a>
+    </div>
+  );
+};
 
-// import { useNavigate } from 'react-router-dom';
-
-// const ErrorPage = () => {
-//   const navigate = useNavigate();
-
-//   return (
-//     <div className='d-flex flex-column justify-content-center align-items-center vh-100 bg-light text-center p-4'>
-//       <div className='display-1 fw-bold text-danger mb-3'>404</div>
-//       <h1 className='h3 mb-2'>Oops! Page not found</h1>
-//       <p className='mb-4 text-muted'>
-//         The page you're looking for doesn't exist or has been moved.
-//       </p>
-//       <button
-//         className='btn btn-primary px-4 py-2'
-//         onClick={() => navigate('/')}>
-//         Back to Home
-//       </button>
-//     </div>
-//   );
-// };
-
-// export default ErrorPage;
+export default ErrorPage;

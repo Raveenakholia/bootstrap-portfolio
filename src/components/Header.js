@@ -42,6 +42,13 @@ const Header = () => {
           </li>
           <li className='nav-item'>
             <Link
+              to='/SmartIndiaHackathon'
+              className='nav-link'>
+              Smart India Hackathon
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link
               to='/projects'
               className='nav-link'>
               Projects

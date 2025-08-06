@@ -12,13 +12,12 @@ import Contact from './components/Contact';
 import Header from './components/Header';
 import ErrorPage from './components/ErrorPage';
 import Achievements from './components/Achievements';
-import Projetcs from './components/Projets';
 import Projects from './components/Projets';
+import SmartIndiaHackathon from './components/SmartIndiaHackathon'; // Ensure this path is correct
 const AppLayout = () => {
   return (
     <div className='app'>
       <Header />
-
       <Outlet />
     </div>
   );
@@ -28,7 +27,7 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <AppLayout />,
-    errorElement: <ErrorPage />,
+    errorElement: <ErrorPage />, //SmartIndiaHackathon
     children: [
       {
         path: '/',
@@ -50,13 +49,19 @@ const router = createBrowserRouter([
         path: '/achievements',
         element: <Achievements />,
       },
+      {
+        path: '/SmartIndiaHackathon',
+        element: <SmartIndiaHackathon />,
+      },
     ],
   },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Provider store={store}>
-    <RouterProvider router={router} />
-  </Provider>
+  <React.StrictMode>
+    <Provider store={store}>
+      <RouterProvider router={router} />
+    </Provider>
+  </React.StrictMode>
 );
