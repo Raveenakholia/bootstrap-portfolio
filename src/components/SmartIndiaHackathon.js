@@ -1,71 +1,66 @@
 /** @format */
 
-const SmartIndiaHackathon = () => {
+import SmartH1 from '../assets/SmartH1.jpeg';
+import SmartH2 from '../assets/SmartH2.jpeg';
+import SmartH3 from '../assets/SmartH3.jpeg';
+
+const Carousel = () => {
   return (
     <div
-      id='projectCarousel'
-      className='carousel slide carousel-fade'
+      id='carouselExampleIndicators'
+      className='carousel slide'
       data-bs-ride='carousel'>
+      {/* Indicators */}
       <div className='carousel-indicators'>
         <button
           type='button'
-          data-bs-target='#projectCarousel'
+          data-bs-target='#carouselExampleIndicators'
           data-bs-slide-to='0'
           className='active'
           aria-current='true'
           aria-label='Slide 1'></button>
         <button
           type='button'
-          data-bs-target='#projectCarousel'
+          data-bs-target='#carouselExampleIndicators'
           data-bs-slide-to='1'
           aria-label='Slide 2'></button>
         <button
           type='button'
-          data-bs-target='#projectCarousel'
+          data-bs-target='#carouselExampleIndicators'
           data-bs-slide-to='2'
           aria-label='Slide 3'></button>
       </div>
 
-      <div className='carousel-inner rounded-4 shadow-lg'>
+      {/* Slides */}
+      <div className='carousel-inner'>
         <div className='carousel-item active'>
           <img
-            src='/images/hackathon1.jpg'
+            src={SmartH1}
             className='d-block w-100'
-            alt='Smart India Hackathon Project 1'
+            alt='Slide 1'
           />
-          <div className='carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded-3 p-2'>
-            <h5>Smart India Hackathon 2023</h5>
-            <p>Our AI-based traffic management solution.</p>
-          </div>
         </div>
         <div className='carousel-item'>
           <img
-            src='/images/hackathon2.jpg'
+            src={SmartH2}
             className='d-block w-100'
-            alt='Smart India Hackathon Project 2'
+            alt='Slide 2'
           />
-          <div className='carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded-3 p-2'>
-            <h5>Problem Solving at Scale</h5>
-            <p>Addressing real-world public service challenges.</p>
-          </div>
         </div>
         <div className='carousel-item'>
           <img
-            src='/images/hackathon3.jpg'
+            src={SmartH3}
             className='d-block w-100'
-            alt='Smart India Hackathon Project 3'
+            alt='Slide 3'
           />
-          <div className='carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded-3 p-2'>
-            <h5>Innovative UI/UX</h5>
-            <p>Built using React, Node.js and cloud services.</p>
-          </div>
         </div>
       </div>
 
+      {/* Controls */}
       <button
         className='carousel-control-prev'
         type='button'
-        data-bs-target='#projectCarousel'
+        data-bs-target='#carouselExampleIndicators'
         data-bs-slide='prev'>
         <span
           className='carousel-control-prev-icon'
@@ -75,7 +70,7 @@ const SmartIndiaHackathon = () => {
       <button
         className='carousel-control-next'
         type='button'
-        data-bs-target='#projectCarousel'
+        data-bs-target='#carouselExampleIndicators'
         data-bs-slide='next'>
         <span
           className='carousel-control-next-icon'
@@ -86,4 +81,4 @@ const SmartIndiaHackathon = () => {
   );
 };
 
-export default SmartIndiaHackathon;
+export default Carousel;
