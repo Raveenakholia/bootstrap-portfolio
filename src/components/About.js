@@ -38,12 +38,6 @@ const About = () => {
               picture: a digital world that feels human, and a legacy that feels
               alive.
             </p>
-            <a
-              href='/src/components/Achievements'
-              class='btn btn-dark mt-3'
-              onClick={handleOnClickFunctionlity}>
-              Let’s Build Something Meaningful
-            </a>
           </div>
         </div>
       </section>

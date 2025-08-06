@@ -36,7 +36,7 @@ const Body = () => {
           <div class='container'>
             <div
               class='text-center mb-5'
-              style={{ color: 'white' }}>
+              style={{ color: 'black' }}>
               <h2 class='mb-3 '>Domain-Specific Chat Projects</h2>
               <p class='lead'>
                 Conversational interfaces built with <strong>Chat.js</strong>{' '}

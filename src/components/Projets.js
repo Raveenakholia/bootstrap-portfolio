@@ -24,11 +24,6 @@ function Projects() {
             <div className='row g-4'>
               <div className='col-md-6 col-lg-4'>
                 <div className='card h-100 shadow-sm border-0'>
-                  <img
-                    src='project1-thumbnail.jpg'
-                    className='card-img-top'
-                    alt='Project 1'
-                  />
                   <div className='card-body d-flex flex-column'>
                     <h5 className='card-title'>
                       DFCU Bank – Commercial Loan Origination System (CLOS)
@@ -48,30 +43,12 @@ function Projects() {
                       <span className='badge bg-info text-dark'>CSS</span>
                     </div>
                   </div>
-                  <div className='card-footer bg-transparent border-0 d-flex justify-content-between'>
-                    <a
-                      href='https://live-demo-link.com'
-                      target='_blank'
-                      className='btn btn-sm btn-outline-dark'>
-                      Live Demo
-                    </a>
-                    <a
-                      href='https://github.com/your-repo-link'
-                      target='_blank'
-                      className='btn btn-sm btn-outline-secondary'>
-                      Source Code
-                    </a>
-                  </div>
+                  <div className='card-footer bg-transparent border-0 d-flex justify-content-between'></div>
                 </div>
               </div>
 
               <div className='col-md-6 col-lg-4'>
                 <div className='card h-100 shadow-sm border-0'>
-                  <img
-                    src='project2-thumbnail.jpg'
-                    className='card-img-top'
-                    alt='Project 2'
-                  />
                   <div className='card-body d-flex flex-column'>
                     <h5 className='card-title'>
                       Bank Muscat – Retail Loan Origination System (RLOS)
@@ -91,20 +68,7 @@ function Projects() {
                       <span className='badge bg-info text-dark'>CSS</span>
                     </div>
                   </div>
-                  <div className='card-footer bg-transparent border-0 d-flex justify-content-between'>
-                    <a
-                      href='https://your-ecommerce-live.com'
-                      target='_blank'
-                      className='btn btn-sm btn-outline-dark'>
-                      Live Demo
-                    </a>
-                    <a
-                      href='https://github.com/your-ecommerce-repo'
-                      target='_blank'
-                      className='btn btn-sm btn-outline-secondary'>
-                      Source Code
-                    </a>
-                  </div>
+                  <div className='card-footer bg-transparent border-0 d-flex justify-content-between'></div>
                 </div>
               </div>
             </div>

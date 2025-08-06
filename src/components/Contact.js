@@ -72,22 +72,6 @@ function Contact() {
                 <p class='mb-1'>
                   <strong>Email:</strong> raveenakholia786@gmail.com
                 </p>
-                <p class='mb-1'>
-                  <strong>Instagram:</strong>{' '}
-                  <a
-                    href='https://instagram.com/threaded.legacy'
-                    target='_blank'>
-                    @threaded.legacy
-                  </a>
-                </p>
-                <p>
-                  <strong>WhatsApp:</strong>{' '}
-                  <a
-                    href='https://wa.me/+918284906157'
-                    target='_blank'>
-                    Message me directly
-                  </a>
-                </p>
               </div>
             </div>
           </div>
