@@ -1,9 +1,7 @@
 /** @format */
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import ME from '../assets/ME.jpeg';
 
-const handleOnClickFunctionlity = () => {};
 const About = () => {
   return (
     <div className='container my-5'>
