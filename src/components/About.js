@@ -2,15 +2,6 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import ME from '../assets/ME.jpeg';
-import Achievements from './Achievements';
-
-// 2. Import the specific icon you want to use
-import {
-  faCoffee,
-  faCheckCircle,
-  faAlignRight,
-  faLinkedinSquare,
-} from '@fortawesome/free-solid-svg-icons';
 
 const handleOnClickFunctionlity = () => {};
 const About = () => {

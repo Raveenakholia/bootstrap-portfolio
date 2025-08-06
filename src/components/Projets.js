@@ -1,12 +1,10 @@
 /** @format */
 
 // src/components/Projects.js
-import * as React5 from 'react';
+import React from 'react';
 import { useSelector } from 'react-redux';
 
 function Projects() {
-  const projects = useSelector((state) => state.projects.data);
-
   return (
     <div className='container my-5'>
       <h2>Projects</h2>
